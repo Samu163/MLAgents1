@@ -1,0 +1,13 @@
+prefix=E:/MLAgentsPrueba/testML/Library
+exec_prefix=E:/MLAgentsPrueba/testML/Library
+libdir=E:/MLAgentsPrueba/testML/Library/lib
+sharedlibdir=E:/MLAgentsPrueba/testML/Library/lib
+includedir=E:/MLAgentsPrueba/testML/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
